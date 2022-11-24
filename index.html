@@ -216,25 +216,25 @@
         <h3 class="registration-title">Register for event</h3>
         <div class="form-hr"></div>
       </div>
-      <form action="">
+      <form  action="" id="registrationform" name="registration-form" >
       <div class="input-name">
-        <input type="text" class="form-input-1" placeholder="First name"required>
-        <input type="text" class="form-input-1" placeholder="Last name"required>
+        <input type="text" class="form-input-1"  id="fname" placeholder="First name"required>
+        <input type="text" class="form-input-1" id="lname" placeholder="Last name"required>
       </div>
       <div class="input-Branch">
-        <input type="text" class="form-input-1" placeholder="Branch"required>
-        <input type="number" class="form-input-1" placeholder="Year of Passing"required>
+        <input type="text" class="form-input-1" id="branch" placeholder="Branch"required>
+        <input type="number" class="form-input-1" id="year" placeholder="Year of Passing"required>
       </div>
       <div class="input-No">
-        <input type="number" class="form-input-1" placeholder="Contact No."required>
-        <input type="email" class="form-input-1" placeholder="E-mail"required>
+        <input type="number" class="form-input-1"  id="contact" placeholder="Contact No."required>
+        <input type="email" class="form-input-1" id="email" placeholder="E-mail"required>
       </div>
       <div class="rest-input">
-        <input type="text" class="form-input-2" placeholder="Occupation"required>
-        <input type="text" class="form-input-2" placeholder="College Achievement"required>
-        <input type="text" class="form-input-2" placeholder="Brief Profile"required>
-        <input type="text" class="form-input-2" placeholder="Special Achievements"required>
-        <textarea class="form-input-2 textarea-form-input-2" placeholder="Message for your batchmates"required></textarea>
+        <input type="text" class="form-input-2" id="occupation" placeholder="Occupation"required>
+        <input type="text" class="form-input-2" id="college" placeholder="College Achievement"required>
+        <input type="text" class="form-input-2" id="brief" placeholder="Brief Profile"required>
+        <input type="text" class="form-input-2" id="special" placeholder="Special Achievements"required>
+        <textarea class="form-input-2 textarea-form-input-2" id="messege" placeholder="Message for your batchmates"required></textarea>
       </form>
         <div id="message">
           <h4 class="successful-msg"> Successfully Registered!</h4>
@@ -249,7 +249,7 @@
           </div>
 
         </div>
-        <input type="submit" id="submit-btn" class="form-submit" value="Register Now " onclick="displayMessage()"><i class="fa-solid btn-arr fa-arrow-right animate__animated animate__headShake animate__infinite	infinite animate__slow"></i>
+        <input id="btn-sub" type="submit" class="form-submit"  sendMessage() ><i class="fa-solid btn-arr fa-arrow-right animate__animated animate__headShake animate__infinite	infinite animate__slow"></i>
       </div>
 
 
@@ -323,6 +323,8 @@
   </section>
 
   <script src="JS/app4.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+  <script src="JS/main.js"></script>
   <script>
     function displayMessage() {
       document.getElementById("message").classList.add("click-message");
