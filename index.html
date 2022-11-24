@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alumni Meet</title>
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="stylesheet" href="CSS/styles5.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/Styles1.css">
+  <link rel="icon" href="favicon.ico">
+  <script src="https://kit.fontawesome.com/a66516daf4.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body style="overflow-x:hidden;">
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+      var hash = "#" + document.location.search.split("=")[1];
+      if (Boolean(document.location.search.split("=")[1])) {
+        console.log(hash);
+	  var by = hash == "#section-2" ? ($(hash).offset().top - 40) : $(hash).offset().top;
+        $('html, body').animate({
+          scrollTop: by
+        }, 1500);
+      }
+    }
+    );
+  </script>
+  <nav style="opacity: 1;">
+    <a href="https://www.ecellnitb.com"><img id="logo" src="Images/logo.png"></a>
+
+    <ul class="nav nav-items" style="text-transform: uppercase;">
+
+      <li class="nav-link"><a href="?view=section-1">home</a></li>
+      <li class="nav-link"><a href="?view=section-2">About event</a></li>
+      <li class="nav-link"><a href="?view=registration-form">register</a></li>
+      <li class="nav-link"><a href="/">E-summit 23'</a></li>
+      <li class="nav-link"><a href="https://www.ecellnitb.com">E-Cell MANIT</a></li>
+
+    </ul>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+
+
+  <section id="section-1">
+    <h3 class="title-sm">Entrepreneurship Cell presents</h3>
+    <h1 class="big-title-1">MANIT Alumnis’</h1>
+    <h1 class="big-title-2">Meet 2023 </h1>
+    <div class="event-detail">
+      <h4 class="date"><i class="fa-solid icon-date fa-calendar-days"></i>11-12 Feb 2023</h4>
+      <h4 class="veneue"><i class="fa-solid icon-loc fa-location-dot"></i>MANIT Bhopal, India</h4>
+    </div>
+  <a href="?view=container">  <div class="contact-landing" > <p>Contact Us</p> </div></a>
+  </section>
+  <section id="section-2" style="overflow: hidden;">
+    <div class="bg">
+      
+      <div class="About">About The Event </div>
+      
+      <p class="parag">Alumni Reunion is a jubilant event aimed at celebrating the imperial legacy of graduated people of Maulana
+        Azad National Institute of Technology.This annual conference will consist of diverse insightful activities and interactive
+        sessions from accomplished alums contributing conscientiously in the field of entrepreneurship and technological advancements.
+        As a part of our upcoming megafest,E-Summit'23,our team will be organising an Alumni Meetto reminisce the yester years and share
+        their insights from the corporate world.
+      </p>
+    </div>
+   
+        <div class="background">
+          <div class="heading">Opportunities</div>
+          <div class="row-1">
+            <div class="box1">
+              <div class="cover">
+                <img class="icon-img" src="gettogether white.png">
+                <p class="para">Alumni Get Together</p>
+              </div>
+              <div class="events-overlay">
+                <div class="cover1">
+                  <img class="icon-img" src="get otgether gradeint.png">
+                  <p class="para">Alumni Get Together</p>
+                </div>
+              </div>
+            </div>
+            <div class="box1">
+              <div class="cover">
+                <img class="icon-img" src="cultural white.png">
+                <p class="para">Cultural Activities</p>
+              </div>
+              <div class="events-overlay">
+                <div class="cover1">
+                  <img class="icon-img" src="cultural gradient.png">
+                  <p class="para">Cultural Activities</p>
+                </div>
+              </div>
+            </div>
+            <div class="box1">
+              <div class="cover">
+                <img class="icon-img" src="fun icon white.png">
+                <p class="para">Games & Fun Activities </p>
+              </div>
+              <div class="events-overlay">
+                <div class="cover1">
+                  <img class="icon-img" src="fun icon gradient.png">
+        
+                  <p class="para">Games & Fun Activities </p>
+                </div>
+              </div>
+            </div>
+            <div class="box1">
+              <div class="cover">
+                <img class="icon-img" src="investing white.png">
+                <p class="para">Investing In Opportunities & Startups</p>
+              </div>
+              <div class="events-overlay">
+                <div class="cover1">
+                  <img class="icon-img" src="investing gradeint.png">
+                  <p class="para">Investing In Opportunities & Startups</p>
+                  </div>
+                  </div>
+                  </div>
+                  
+                  </div>
+                  <div class="row-2">
+                    <div class="box1">
+                      <div class="cover">
+                        <img class="icon-img" src="buffet white.png">
+                        <p class="para">Appetizing Buffet</p>
+                      </div>
+                      <div class="events-overlay">
+                        <div class="cover1">
+                          <img class="icon-img" src="buffet gradient.png">
+                          <p class="para">Appetizing Buffet</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="box1">
+                      <div class="cover">
+                        <img class="icon-img" src="group photographs white.png">
+                        <p class="para">Group Photographs</p>
+                      </div>
+                      <div class="events-overlay">
+                        <div class="cover1">
+                          <img class="icon-img" src="photographs gradient.png">
+                          <p class="para">Group Photographs</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="box1">
+                      <div class="cover">
+                        <img class="icon-img" src="passes white.png">
+                        <p class="para">Free Passes of E-Summit'23</p>
+                      </div>
+                      <div class="events-overlay">
+                        <div class="cover1">
+                          <img class="icon-img" src="passes gradient.png">
+                          <p class="para1">Free Passes of E-Summit'23</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="box1">
+                      <div class="cover">
+                        <img class="icon-img" src="hiring white.png">
+                        <p class="para1">Hiring opportunities to Student Community</p>
+                      </div>
+                      <div class="events-overlay">
+                        <div class="cover1">
+                          <img class="icon-img" src="hiring gradient.png">
+                          <p class="para1">Hiring opportunities to Student Community</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+    </div>
+  </section>
+  <section id="registration-form">
+    <div class="wrapper">
+
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+    </div>
+    <div class="form">
+      <div class="head-form">
+        <div class="form-hr"></div>
+        <h3 class="registration-title">Register for event</h3>
+        <div class="form-hr"></div>
+      </div>
+      <form action="">
+      <div class="input-name">
+        <input type="text" class="form-input-1" placeholder="First name"required>
+        <input type="text" class="form-input-1" placeholder="Last name"required>
+      </div>
+      <div class="input-Branch">
+        <input type="text" class="form-input-1" placeholder="Branch"required>
+        <input type="number" class="form-input-1" placeholder="Year of Passing"required>
+      </div>
+      <div class="input-No">
+        <input type="number" class="form-input-1" placeholder="Contact No."required>
+        <input type="email" class="form-input-1" placeholder="E-mail"required>
+      </div>
+      <div class="rest-input">
+        <input type="text" class="form-input-2" placeholder="Occupation"required>
+        <input type="text" class="form-input-2" placeholder="College Achievement"required>
+        <input type="text" class="form-input-2" placeholder="Brief Profile"required>
+        <input type="text" class="form-input-2" placeholder="Special Achievements"required>
+        <textarea class="form-input-2 textarea-form-input-2" placeholder="Message for your batchmates"required></textarea>
+      </form>
+        <div id="message">
+          <h4 class="successful-msg"> Successfully Registered!</h4>
+          <i class="fa-solid fa-xmark" onclick="hideMessage()"></i>
+          <h4 class="follow-msg">Follow Us! Stay Updated with E-Summit'23</h4>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/ecell_nitb/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/ecellnitbhopal/"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://www.linkedin.com/company/ecell-manit"> <i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/ecell_nitb"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.youtube.com/@EntrepreneurshipCellNITBhopal"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+
+        </div>
+        <input type="submit" id="submit-btn" class="form-submit" value="Register Now " onclick="displayMessage()"><i class="fa-solid btn-arr fa-arrow-right animate__animated animate__headShake animate__infinite	infinite animate__slow"></i>
+      </div>
+
+
+    </div>
+
+  </section>
+  <section id="footer">
+    <div class="subscription">
+      <div class="paragraph">Don't miss our updates</div>
+      <div class="Subscribe">
+            <p class="subscribe-text">Subscribe Now</p>
+            <form action="">
+          <div class="box">
+           
+            <input type="text" class="mail" placeholder="Enter your mail..." required>
+                <button class="sec-box">Subscribe</button>
+              
+          </div>
+        </form>
+      </div>
+  </div>                   
+  </div>
+  <div class="footer-hr"></div>
+    <div id="container">
+      <div class="footerdetail">
+       <div class="ppati">
+      <p>Pratham Patidar</p> <p><a href="tel:+919294836692">9294836692</a></p>
+    </div>
+    <div class="anuraj">
+      <p>Anuraj Shrivastava</p> <p><a href="tel:+918962970385">8962970385</a></p>
+    </div>
+    <div class="chirayu">
+      <p>Chirayu Sood</p> <p><a href="tel:+918251027550">8251027550</a></p>
+    </div>
+    <div class="arnav">
+      <p>Arnav Bangaria</p> <p><a href="tel:+916265174401">6265174401</a></p>
+    </div>
+    
+    </div>
+   
+    
+    <div class="social">
+     
+       
+       <p class="adress-content"> <i class="fa-solid fa-location-dot"></i> Maulana Azad National Institute of Technology</p>
+    
+      
+    
+          
+       <p class="footer-mail"><a href="mailto:support@ecellnitb.com"><i class="fa-solid fa-envelope"></i> support@ecellnitb.com</a></p> 
+      
+        <div class="icon">
+          <div class="icon1"><a href="https://www.instagram.com/ecell_nitb/"><i class="fa-brands fa-instagram">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></a></div>
+          <div class="icon1"><a href="https://www.youtube.com/@EntrepreneurshipCellNITBhopal"><i class="fa-brands fa-youtube">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></a></div>
+          <div class="icon1"><a href="https://www.linkedin.com/company/ecell-manit"> <i class="fa-brands fa-linkedin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></a></div>
+          <div class="icon1"><a href="https://www.facebook.com/ecellnitbhopal/"><i class="fa-brands fa-square-facebook">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></a></div>
+          
+        </div>
+        <div class="copyright"><p> Copyright © 2023 • E-Cell MANIT Bhopal</p></div>
+      </div>
+    
+  </div>
+      
+
+  
+
+
+
+   
+  </div>
+  </section>
+
+  <script src="JS/app4.js"></script>
+  <script>
+    function displayMessage() {
+      document.getElementById("message").classList.add("click-message");
+      document.getElementById("submit-btn").classList.toggle("form-submit-click");
+    }
+
+    function hideMessage() {
+      document.getElementById("message").classList.remove("click-message");
+    }
+  </script>
+</body>
+
+</html>

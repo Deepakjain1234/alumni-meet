@@ -1,0 +1,640 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#section-1 {
+  width: 100vw;
+
+  /* background: radial-gradient(100% 159.69% at 100% 100%,  0%,  100%); */
+  background: linear-gradient(-45deg, #120E3D, #000000);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  text-align: center;
+  padding-bottom: 1px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.title-sm {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 60px;
+  color: #FFFFFF;
+  padding-top: 200px;
+  margin: 0;
+}
+
+.big-title-1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 101.19%;
+  background: linear-gradient(180deg, #00E0FF 0%, rgba(0, 224, 255, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  padding-top: 40px;
+  margin: 0;
+}
+
+.big-title-2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 101.19%;
+  color: #fff;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+
+.event-detail {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.date {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 45px;
+  color: #FFFFFF;
+  margin-right: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.veneue {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 45px;
+  color: #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.icon-date{
+  margin-right: 10px;
+}
+.icon-loc{
+  margin-right: 10px;
+}
+
+.contact-landing {
+  width: 142px;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #3C3C3C;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #070707;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.contact-landing p{
+  margin: 0;
+  padding: 14px 0px;
+}
+#section-1 a{
+  text-decoration: none;
+  color: inherit;
+}
+.contact-landing :hover{
+  background: radial-gradient(111.36% 111.36% at 16.48% 11.93%, #00E0FF 0%, #0044F2 100%);
+}
+
+#registration-form {
+  background: radial-gradient(95.68% 96.91% at 0% 2.36%, #00E0FF 0%, #0044F2 100%);
+  z-index: 1;
+  width: 100vw;
+  padding-top: 150px;
+  padding-bottom: 170px;
+}
+
+.head-form {
+  display: flex;
+  justify-content: center;
+}
+
+.form-hr {
+  width: 14vw;
+  background-color: #00E0FF;
+  height: 3px;
+  margin-top: 62px;
+}
+
+.registration-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #333333;
+}
+
+.form {
+  position: relative;
+  background: #FFFEFE;
+  box-shadow: 0px 6px 50px rgba(0, 14, 141, 0.25);
+  border-radius: 20px;
+  width: 70vw;
+  z-index: 3;
+  margin: auto;
+}
+
+.input-name {
+  display: flex;
+  justify-content: center;
+}
+
+.input-Branch {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.input-No {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.rest-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-input-1 {
+  width: 30vw;
+  height: 93.45px;
+  margin-left: 3px;
+  background: #F5F5F5;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #373636;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #999999;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #999999;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #999999;
+}
+
+.form-input-2 {
+  width: 60vw;
+  height: 93.45px;
+  background: #F5F5F5;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 35px;
+}
+
+.textarea-form-input-2 {
+  height: 170px;
+}
+
+.form-submit {
+  margin-top: 35px;
+  width: 60vw;
+  height: 93.45px;
+  background: linear-gradient(89.97deg, #0044F2 0.08%, #00E0FF 99.94%);
+  border-radius: 5px;
+  border: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 35px;
+  color: #FFFFFF;
+}
+
+.btn-arr {
+  position: relative;
+  bottom: 94px;
+  left: 265px;
+  font-size: 25px;
+  color: #fff;
+}
+
+#message {
+  position: absolute;
+  bottom: 20px;
+  background-color: #d7d5d5;
+  visibility: hidden;
+  text-align: center;
+  color: #5c5b5b;
+  font-family: "Poppins", sans-serif;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.click-message {
+  visibility: visible !important;
+  z-index: 4;
+}
+
+.successful-msg {
+  font-size: 20px;
+  font-weight: 600;
+  color: #055978;
+}
+
+.follow-msg {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.social-icons .fa-brands {
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+.fa-xmark {
+  position: absolute;
+  font-size: 25px;
+  top: 10px;
+  right: 10px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #5c5b5b;
+}
+
+.social-icons a :hover {
+  transform: translateY(-3px);
+  color: #055978;
+}
+
+.form-submit-click {
+  transform: scale(0.99);
+}
+.footer-hr{
+  width: 80vw;
+    background-color: #00E0FF;
+    height: 3px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+}
+
+@media (min-width:500px) and (max-width:800px) {
+  #section-1{
+    height: 100vh;
+  }
+  .title-sm {
+    font-size: 25px;
+    padding-top: 30vh;
+  }
+
+  .big-title-1 {
+    font-size: 65px;
+  }
+
+  .big-title-2 {
+    font-size: 65px;
+    margin-top: 1.56rem;
+  }
+
+  .date {
+    font-size: 15px;
+  }
+
+  .veneue {
+    font-size: 15px;
+  }
+
+  .contact-landing {
+    width: 120px;
+    height: 49px;
+  }
+
+  .registration-title {
+    font-size: 15px;
+  }
+
+  .form-hr {
+    margin-top: 41px;
+  }
+
+  .input-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input-Branch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  .input-No {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  .form-input-1 {
+    width: 60vw;
+    height: 60px;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+  }
+
+  ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+  }
+
+  .form-input-2 {
+    height: 60px;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  .wrapper {
+    height: 1200px;
+    overflow: hidden;
+  }
+
+  .form-submit {
+    margin-top: 35px;
+    width: 60vw;
+    height: 68px;
+    font-size: 15px;
+  }
+
+  .btn-arr {
+    bottom: 74px;
+    left: 99px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width:300px) and (max-width:500px) {
+  #section-1{
+    height: 100vh;
+  }
+  .form{
+    width: 80vw;
+  }
+  .title-sm {
+    font-size: 19px;
+    padding-top: 30vh;
+  }
+
+  .big-title-1 {
+    font-size: 40px;
+  }
+
+  .big-title-2 {
+    font-size: 40px;
+    margin-top: 1.56rem;
+  }
+
+  .date {
+    font-size: 10px;
+  }
+
+  .veneue {
+    font-size: 10px;
+  }
+
+  .contact-landing {
+    width: 85px;
+    height: 25px;
+    font-size: 10px;
+  }
+  .contact-landing p{
+    padding: 5px 0;
+  }
+
+  .registration-title {
+    font-size: 9px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0
+  }
+
+  .form-hr {
+    margin-top: 35px;
+    height: 2px;
+  }
+
+  .input-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+  }
+
+  .input-Branch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  .input-No {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  .form-input-1 {
+    width: 70vw;
+    height: 50px;
+    margin-top: 15px;
+    font-size: 10px;
+  }
+
+  ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 24px;
+    color: #999999;
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 24px;
+    color: #999999;
+  }
+
+  ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 24px;
+    color: #999999;
+  }
+
+  .form-input-2 {
+    height: 50px;
+    width: 70vw;
+    margin-top: 15px;
+    font-size: 10px;
+  }
+
+  #registration-form {
+    padding-top: 70px;
+    padding-bottom: 120px;
+  }
+
+  .wrapper {
+    height: 1016px;
+    overflow: hidden;
+  }
+
+  .form-submit {
+    margin-top: 35px;
+    width: 70vw;
+    height: 50px;
+    font-size: 10px;
+  }
+
+  .btn-arr {
+    bottom: 65px;
+    left: 85px;
+    font-size: 10px;
+  }
+
+  .successful-msg {
+    font-size: 15px;
+    font-weight: 600;
+    color: #055978;
+  }
+
+  .follow-msg {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .social-icons .fa-brands {
+    font-size: 25px;
+    margin: 0 7px;
+  }
+
+  .fa-xmark {
+    position: absolute;
+    font-size: 20px;
+    top: 10px;
+    right: 10px;
+  }
+}
+.event-detail button:hover{
+  color: #00E0FF;
+}
+
