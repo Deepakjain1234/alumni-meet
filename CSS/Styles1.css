@@ -6,7 +6,6 @@ body {
 
 #section-1 {
   width: 100vw;
-
   /* background: radial-gradient(100% 159.69% at 100% 100%,  0%,  100%); */
   background: linear-gradient(-45deg, #120E3D, #000000);
   background-size: 400% 400%;
@@ -95,11 +94,11 @@ body {
   margin-bottom: 0;
 }
 
-
-.icon-date{
+.icon-date {
   margin-right: 10px;
 }
-.icon-loc{
+
+.icon-loc {
   margin-right: 10px;
 }
 
@@ -118,15 +117,18 @@ body {
   margin-top: 50px;
   margin-bottom: 70px;
 }
-.contact-landing p{
+
+.contact-landing p {
   margin: 0;
   padding: 14px 0px;
 }
-#section-1 a{
+
+#section-1 a {
   text-decoration: none;
   color: inherit;
 }
-.contact-landing :hover{
+
+.contact-landing :hover {
   background: radial-gradient(111.36% 111.36% at 16.48% 11.93%, #00E0FF 0%, #0044F2 100%);
 }
 
@@ -335,20 +337,21 @@ body {
 .form-submit-click {
   transform: scale(0.99);
 }
-.footer-hr{
-  width: 80vw;
-    background-color: #00E0FF;
-    height: 3px;
-    margin: auto;
-    margin-bottom: 50px;
-    margin-top: 20px;
 
+.footer-hr {
+  width: 80vw;
+  background-color: #00E0FF;
+  height: 3px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 20px;
 }
 
 @media (min-width:500px) and (max-width:800px) {
-  #section-1{
+  #section-1 {
     height: 100vh;
   }
+
   .title-sm {
     font-size: 25px;
     padding-top: 30vh;
@@ -467,31 +470,37 @@ body {
     left: 99px;
     font-size: 15px;
   }
-  .ppati{
+
+  .ppati {
     width: 50vw;
     margin: 0 25vw;
   }
-  .anuraj{
+
+  .anuraj {
     width: 50vw;
     margin: 0 25vw;
   }
-  .chirayu{
+
+  .chirayu {
     width: 50vw;
     margin: 0 25vw;
   }
-  .arnav{
+
+  .arnav {
     width: 50vw;
     margin: 0 25vw;
   }
 }
 
 @media (min-width:300px) and (max-width:500px) {
-  #section-1{
+  #section-1 {
     height: 100vh;
   }
-  .form{
+
+  .form {
     width: 80vw;
   }
+
   .title-sm {
     font-size: 19px;
     padding-top: 30vh;
@@ -519,7 +528,8 @@ body {
     height: 25px;
     font-size: 10px;
   }
-  .contact-landing p{
+
+  .contact-landing p {
     padding: 5px 0;
   }
 
@@ -568,7 +578,6 @@ body {
 
   ::placeholder {
     /* Chrome, Firefox, Opera, Safari 10.1+ */
-    
     font-family: 'Poppins';
     font-style: italic;
     font-weight: 400;
@@ -615,14 +624,14 @@ body {
   }
 
   .form-submit {
-    margin-top: 35px;
+    margin: 20px 0;
     width: 70vw;
     height: 50px;
     font-size: 10px;
   }
 
   .btn-arr {
-    bottom: 65px;
+    bottom: 50px;
     left: 85px;
     font-size: 10px;
   }
@@ -649,25 +658,28 @@ body {
     top: 10px;
     right: 10px;
   }
-  .ppati{
+
+  .ppati {
     width: 70vw;
     margin: 0 15vw;
   }
-  .anuraj{
+
+  .anuraj {
     width: 70vw;
     margin: 0 15vw;
   }
-  .chirayu{
+
+  .chirayu {
     width: 70vw;
     margin: 0 15vw;
   }
-  .arnav{
+
+  .arnav {
     width: 70vw;
     margin: 0 15vw;
   }
-  
-}
-.event-detail button:hover{
-  color: #00E0FF;
 }
 
+.event-detail button:hover {
+  color: #00E0FF;
+}
