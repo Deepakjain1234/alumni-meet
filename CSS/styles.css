@@ -170,6 +170,16 @@ textarea {
   width: 50%;
   margin-top: 22px;
   align-items: center;
+  opacity: 1;
+  
+}
+.icon-img-1{
+  height: 50%;
+  width: 50%;
+  margin-top: 22px;
+  align-items: center;
+  opacity: 0;
+  transition: .3s ease-in;
 }
 
 .cover {
@@ -179,6 +189,8 @@ textarea {
   border-radius: 50%;
   margin: auto;
   margin-top: 40px;
+  opacity: 1;
+  /* transition: .4s ease-in; */
 }
 
 .para {
@@ -195,8 +207,9 @@ textarea {
   font-weight: 800;
   line-height: 0.8cm;
   margin: 25px 20px;
-  justify-content: space-around;
-  display: block;
+  opacity: 0;
+ 
+
 }
 
 .parag {
@@ -208,7 +221,7 @@ textarea {
   line-height: 248.5%;
   /* display:flex;
         flex-direction: row; */
-  text-align: justify;
+  text-align: center;
   margin: 20px 118px 43px 118px;
   color: #9E9D9D;
 }
@@ -308,6 +321,7 @@ textarea {
   width: 100vw;
   background: #FFFFFF;
   margin-bottom: 80px;
+  justify-content: space-between;
 }
 
 .footer {
@@ -331,37 +345,48 @@ textarea {
 .events-overlay {
   position: absolute;
   left: 0;
-  background: radial-gradient(#00E0FF, #0044F2);
+background: radial-gradient(111.36% 111.36% at 16.48% 11.93%, #00E0FF 0%, #0044F2 100%);
   color: #000000;
   overflow: hidden;
+  opacity: 0;
   height: 100%;
   width: 0;
   top: 0;
-  transition: .2s ease-in-out;
+  transition: .4s ease-in;
 }
 
 .box1:hover .events-overlay {
   width: 100%;
+  opacity: 1;
   border-radius: 45px;
 }
-.box1:hover.icon-img {
+.box1:hover .icon-img {
   display: block;
+  opacity: 0;
+}
+.box1:hover .icon-img-1{
+
+  opacity: 1;
 }
 
 .box1:hover.cover1 {
   display: block;
   background: white;
 }
+.box1:hover .cover {
+  visibility: hidden;
+  
+  opacity: 0;
+}
 
 .box1:hover .para {
-  margin: 20px 15px;
-  font-size: 16px;
+ 
   color: white;
+  
 }
 
 .box1:hover .para1 {
-  display: block;
-  font-size: 16px;
+ opacity: 1;
   color: white;
 }
 
@@ -375,11 +400,12 @@ textarea {
 }
 
 .icon {
-  width: 30vw;
-  font-size: 23px;
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 40px;
+  
+    font-size: 23px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+
 }
 
 .icon a {
@@ -405,7 +431,7 @@ textarea {
 }
 
 .footerdetail {
-  width: 40vw;
+  width: 30vw;
   margin-left: 10vw;
   display: inline-block;
 }
@@ -427,16 +453,16 @@ textarea {
 
 .copyright {
   font-family: 'Assistant';
-  display: flex;
-  width: 30vw;
-  justify-content: flex-end;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
-  color: #0A142F;
-  mix-blend-mode: normal;
-  opacity: 0.5;
+    display: flex;
+    /* width: 16vw; */
+    justify-content: flex-end;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #0A142F;
+    mix-blend-mode: normal;
+    opacity: 0.5;
 }
 
 .anuraj {
