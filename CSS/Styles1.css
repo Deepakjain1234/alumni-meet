@@ -467,6 +467,22 @@ body {
     left: 99px;
     font-size: 15px;
   }
+  .ppati{
+    width: 50vw;
+    margin: 0 25vw;
+  }
+  .anuraj{
+    width: 50vw;
+    margin: 0 25vw;
+  }
+  .chirayu{
+    width: 50vw;
+    margin: 0 25vw;
+  }
+  .arnav{
+    width: 50vw;
+    margin: 0 25vw;
+  }
 }
 
 @media (min-width:300px) and (max-width:500px) {
@@ -633,6 +649,23 @@ body {
     top: 10px;
     right: 10px;
   }
+  .ppati{
+    width: 70vw;
+    margin: 0 15vw;
+  }
+  .anuraj{
+    width: 70vw;
+    margin: 0 15vw;
+  }
+  .chirayu{
+    width: 70vw;
+    margin: 0 15vw;
+  }
+  .arnav{
+    width: 70vw;
+    margin: 0 15vw;
+  }
+  
 }
 .event-detail button:hover{
   color: #00E0FF;

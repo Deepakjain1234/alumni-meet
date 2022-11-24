@@ -183,7 +183,7 @@ textarea{
   font-size: 16px;
   text-align: center;
   font-weight: 800;
-  display: flex;
+  margin: 25px 20px;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -193,6 +193,7 @@ textarea{
   font-family: 'Poppins', sans-serif;
   font-weight: 800;
   line-height:0.8cm;
+  margin: 25px 20px;
   justify-content: space-around;
   display: block;
 }
@@ -213,7 +214,7 @@ textarea{
 
 .About {
   margin: auto;
- margin-top: 30px;
+ margin-top: 20px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
@@ -332,7 +333,7 @@ textarea{
 .events-overlay {
   position: absolute;
   bottom: 0;
-  background: radial-gradient(#00E0FF, #0044F2);
+  background: radial-gradient(111.36% 111.36% at 16.48% 11.93%, #00E0FF 0%, #0044F2 100%);
   color: #000000;
 
   overflow: hidden;
@@ -357,14 +358,15 @@ textarea{
 }
 
 .box1:hover .para {
-  display: flex;
-  font-size: 15px;
+  margin: 20px 15px;
+  font-size: 16px;
   color: white;
 }
 
 .box1:hover .para1 {
   display: block;
-  font-size: 15px;
+  font-size: 16px;
+  color: white;
 }
 .cover1 {
   height: 35%;
@@ -536,6 +538,23 @@ color: #0A142F;
   margin-right: 10px;
   font-size: 18px;
 }
+.hr{
+  width:14vw;
+  background-color: #00E0FF;
+    height: 3px;
+      margin-left:22%;
+    margin-top:45px;
+    position: absolute;
+}
+.hr1 {
+  position:absolute;
+  width: 14vw;
+  background-color: #00E0FF;
+  height: 3px;
+  margin-left:65%;
+margin-top:-25px;
+display:flex;
+}
 @media screen and (max-width:1024px) {
   body{
     width:100vw;
@@ -559,7 +578,7 @@ color: #0A142F;
     background-blend-mode: cover;
   }
 .About{
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 20px;
 }
   .parag {
@@ -743,26 +762,30 @@ color: #0A142F;
           }
                         .ppati {
                           display: flex;
-                          justify-content: space-evenly;
-                          font-family: 'Poppins';
-                          font-style: normal;
-                          font-weight: 400;
-                          font-size: 10px;
-              margin-left: 10px;
-            
-                          color: #000000;
+    justify-content: space-evenly;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    justify-content: space-between;
+    width: 40vw;
+    /* margin-left: 15vw; */
+    margin: 0 30vw;
+    color: #000000;
                         }
             
                         .anuraj {
                           display: flex;
-                          justify-content: space-evenly;
-                          font-family: 'Poppins';
-                          font-style: normal;
-                          font-weight: 400;
-                          font-size: 10px;
-              margin-left: 10px;
-            
-                          color: #000000;
+    justify-content: space-evenly;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    justify-content: space-between;
+    width: 40vw;
+    /* margin-left: 15vw; */
+    margin: 0 30vw;
+    color: #000000;
                         }
             
                         .chirayu {
@@ -772,8 +795,10 @@ color: #0A142F;
                           font-style: normal;
                           font-weight: 400;
                           font-size: 10px;
-              margin-left: 10px;
-            
+                          justify-content: space-between;
+                          width: 40vw;
+                          /* margin-left: 15vw; */
+                          margin: 0 30vw;
                           color: #000000;
                         }
             
@@ -784,8 +809,10 @@ color: #0A142F;
                           font-style: normal;
                           font-weight: 400;
                           font-size: 10px;
-              margin-left: 10px;
-            
+                          justify-content: space-between;
+                          width: 40vw;
+                          /* margin-left: 15vw; */
+                          margin: 0 30vw;
                           color: #000000;
                         }
 
@@ -841,6 +868,24 @@ color: #0A142F;
 }
 .subscribe-text {
   margin-top: 0px;
+}
+.hr {
+  width:20vw;
+  background-color: #00E0FF;
+  height: 3px;
+  margin-left:2%;
+  margin-top: 45px;
+  position: absolute;
+}
+
+.hr1 {
+  position: absolute;
+  width: 20vw;
+  background-color: #00E0FF;
+  height: 3px;
+  margin-left:77%;
+  margin-top: -25px;
+  display: flex;
 }
 }
 
