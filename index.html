@@ -32,7 +32,7 @@
       var hash = "#" + document.location.search.split("=")[1];
       if (Boolean(document.location.search.split("=")[1])) {
         console.log(hash);
-        var by = hash == "#section-2" ? ($(hash).offset().top - 40) : $(hash).offset().top;
+        var by = hash == "#section-2" ? ($(hash).offset().top - 70) : $(hash).offset().top;
         $('html, body').animate({
           scrollTop: by
         }, 1500);
