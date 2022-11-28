@@ -27,6 +27,7 @@ function scrollFunction() {
   }
 }
 
+
 const navSlide = () => {
    const burger = document.querySelector('.burger');
    const nav = document.querySelector('.nav-items');
@@ -41,7 +42,7 @@ const navSlide = () => {
        }
        else {
 
-         link.style.animation = 'navLinkFade 0.5s ease forwards 0.5s 1';
+         link.style.animation = 'navLinkFade 0.5s ease forwards  1';
 
        }
      });
@@ -52,3 +53,13 @@ const navSlide = () => {
 
  }
  navSlide();
+
+ function closeNav(){
+  const burger = document.querySelector('.burger');
+  const nav = document.querySelector('.nav-items');
+  if(window.innerWidth<1110){
+    nav.classList.remove("nav-active");
+    burger.classList.remove('toggle');
+
+  }
+}
