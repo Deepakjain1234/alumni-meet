@@ -66,7 +66,16 @@ function sendMessage(data) {
 
     // alert("submit")
     newFormMessage.set(data);
-    alert("your application submited");
+    // alert("your application submited");
+
+    swal({title: "Good job", text: "Registered successfully!", type: 
+"success"}).then(function(){ 
+   location.reload();
+   }
+);
+    // location.reload();
+    // displayMessage();
+
 
 
     // // data to be sent to the POST request
