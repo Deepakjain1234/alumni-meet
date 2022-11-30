@@ -428,11 +428,14 @@ background: radial-gradient(111.36% 111.36% at 16.48% 11.93%, #00E0FF 0%, #0044F
 .box1:hover .events-overlay {
   width: 100%;
   border-radius: 45px;
-  animation: fadeIn 5s;
-  -webkit-animation: fadeIn 5s;
-  -moz-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s;
+  animation: fadeIn 1s ;
+  
+  
+  -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+  animation-fill-mode: forwards;
 }
 .box1:hover .icon-img {
   display: block;
