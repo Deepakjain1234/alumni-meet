@@ -537,7 +537,8 @@ body {
     font-size: 9px;
     margin-left: 15px;
     margin-right: 15px;
-    margin-bottom: 0
+    margin-bottom: 0;
+    line-height: 30px;
   }
 
   .form-hr {

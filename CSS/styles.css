@@ -345,7 +345,7 @@ textarea {
 .events-overlay {
   position: absolute;
   left: 0;
-background: radial-gradient(111.36% 111.36% at 16.48% 11.93%, #00E0FF 0%, #0044F2 100%);
+   background: radial-gradient(111.36% 111.36% at 16.48% 11.93%, #00E0FF 0%, #0044F2 100%);
   color: #000000;
   overflow: hidden;
   opacity: 0;
