@@ -174,6 +174,25 @@ body {
   margin: auto;
 }
 
+.form-input-1 select{
+  width: 28vw;
+  height: 93.45px;
+  margin-left: 2vw;
+  background: #F5F5F5;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #373636;
+}
+
+.form-input-1 select:focus{
+  outline: none;
+}
+
 .input-name {
   display: flex;
   justify-content: center;
@@ -490,6 +509,12 @@ body {
     width: 50vw;
     margin: 0 25vw;
   }
+  .form-input-1 select{
+    font-size: 10px;
+    height: inherit;
+    color: #999999;
+    margin-left:2em;
+  }
 }
 
 @media (min-width:300px) and (max-width:500px) {
@@ -595,6 +620,13 @@ body {
     font-size: 10px;
     line-height: 24px;
     color: #999999;
+  }
+  .form-input-1 select{
+    width: 64vw;
+    font-size: 10px;
+    height: inherit;
+    color: #999999;
+    margin-left:2em;
   }
 
   ::-ms-input-placeholder {
