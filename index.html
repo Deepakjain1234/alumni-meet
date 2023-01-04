@@ -283,7 +283,10 @@
           <input type="email" class="form-input-2" id="email" name="email" placeholder="E-mail*" required>
         </div>
         <div class="input-No">
-          <input type="number" class="form-input-1" id="contact" name="phone" placeholder="Contact No.(Without country code)*" required>
+          <input type="number" class="form-input-2" id="contact" name="phone" placeholder="Contact No.(Without country code)*" required>
+
+        </div>
+        <div class="input-No">
 
           <div class="form-input-1">
 
@@ -293,8 +296,18 @@
             <option value = "Female">Female</option>
             <option value = "Other" >Other</option>
             
-            </select>
+          </select>
           </div>
+          <div class="form-input-1">
+
+            <select name = "amount" required >
+              <option class="gender-placeholder"  selected disabled hidden>Choose package</option>
+              <option value = "6000">Hospitality and Accomodation ₹6,000</option>
+              <option value = "3500">Only Hospitality without Accomodation ₹3,500</option>
+              
+              
+            </select>
+            </div>
             <!-- <input type="text" class="form-input-1" name="city"  placeholder="Any Queries"> -->
         </div>
         <div class="rest-input">
@@ -302,7 +315,7 @@
           <input type="text" class="form-input-2" id="address2" name="address2" placeholder="College Achievement" >
            <input type="text" class="form-input-2" id="brief" name="address1" placeholder="Brief Profile and Special Achievements" required>
           <!-- <input type="text" class="form-input-2" id="special" name="udf3" placeholder="Special Achievements" required>  -->
-          <input type="hidden" name="amount" value="6000">
+          <!-- <input type="hidden" name="amount" value="6000"> -->
           <input type="hidden" name="state" value="alumni">
           <!-- <textarea class="form-input-2 textarea-form-input-2" id="messege" placeholder="Message for your batchmates" required></textarea> -->
       </form>
