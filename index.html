@@ -267,37 +267,44 @@
         <h3 class="registration-title">Register For Event</h3>
         <div class="form-hr"></div>
       </div>
-      <form action="index.html" id="registrationform" name="registration-form">
+      <form id="registrationform" name="registration-form"
+      id="non-manit"
+                    action="https://DistortedBusyLoops.deepakjain7.repl.co/api/payment_gateway/payumoney"
+                    method="POST">
         <div class="input-name">
-          <input type="text" class="form-input-1" id="fname" placeholder="First name" required>
-          <input type="text" class="form-input-1" id="lname" placeholder="Last name" required>
+          <input type="text" class="form-input-2" id="fname" name="firstname" placeholder=" name" required>
+          <!-- <input type="text" class="form-input-1" id="lname" name="lastname" placeholder="Last name" required> -->
         </div>
         <div class="input-Branch">
-          <input type="text" class="form-input-1" id="branch" placeholder="Branch" required>
-          <input type="number" class="form-input-1" id="year" placeholder="Year of Passing" required>
+          <input type="text" class="form-input-1" id="branch" name="lastname" placeholder="Branch" required>
+          <input type="number" class="form-input-1" id="year" name="address1" placeholder="Year of Passing" required>
         </div>
         <div class="input-No">
-          <input type="number" class="form-input-1" id="contact" placeholder="Contact No." required>
-          <input type="email" class="form-input-1" id="email" placeholder="E-mail" required>
+          <input type="email" class="form-input-2" id="email" name="email" placeholder="E-mail" required>
         </div>
         <div class="input-No">
+          <input type="number" class="form-input-1" id="contact" name="zipcode" placeholder="Contact No." required>
+
           <div class="form-input-1">
-          <select name = "dropdown" >
-            <option value = "Gender" class="gender-placeholder" selected disabled hidden>Gender</option>
+
+          <select name = "country"  >
+            <option value = "Gender" class="gender-placeholder"  selected disabled hidden>Gender</option>
             <option value = "Male">Male</option>
             <option value = "Female">Female</option>
             <option value = "Other" >Other</option>
             
             </select>
           </div>
-            <input type="text" class="form-input-1" id="branch" placeholder="Any Queries">
+            <!-- <input type="text" class="form-input-1" name="city"  placeholder="Any Queries"> -->
         </div>
         <div class="rest-input">
-          <input type="text" class="form-input-2" id="occupation" placeholder="Occupation" required>
-          <input type="text" class="form-input-2" id="college" placeholder="College Achievement" required>
-          <input type="text" class="form-input-2" id="brief" placeholder="Brief Profile" required>
-          <input type="text" class="form-input-2" id="special" placeholder="Special Achievements" required>
-          <textarea class="form-input-2 textarea-form-input-2" id="messege" placeholder="Message for your batchmates" required></textarea>
+          <input type="text" class="form-input-2" id="occupation" name="city" placeholder="Occupation" required>
+          <input type="text" class="form-input-2" id="address2" name="address2" placeholder="College Achievement*" >
+          <!-- <input type="text" class="form-input-2" id="brief" name="udf2" placeholder="Brief Profile" required>
+          <input type="text" class="form-input-2" id="special" name="udf3" placeholder="Special Achievements" required>  -->
+          <input type="hidden" name="amount" value="6000">
+          <input type="hidden" name="state" value="alumni">
+          <!-- <textarea class="form-input-2 textarea-form-input-2" id="messege" placeholder="Message for your batchmates" required></textarea> -->
       </form>
       <!-- <div id="message">
         <h4 class="successful-msg"> Successfully Registered!</h4>
@@ -312,7 +319,7 @@
         </div>
 
       </div> -->
-      <input id="btn-sub" type="submit" class="form-submit" sendMessage()><i class="fa-solid btn-arr fa-arrow-right animate__animated animate__headShake animate__infinite	infinite animate__slow"></i>
+      <input id="btn-sub" type="submit" class="form-submit" ><i class="fa-solid btn-arr fa-arrow-right animate__animated animate__headShake animate__infinite	infinite animate__slow"></i>
     </div>
 
 
@@ -338,6 +345,10 @@
     <div class="footer-hr"></div>
     <div id="container">
       <div class="footerdetail">
+        <div class="chirayu">
+          <p>Chirayu Sood</p>
+          <p><a href="tel:+918251027550">8251027550</a></p>
+        </div>
         <div class="arnav">
           <p>Arnav Bangaria</p>
           <p><a href="tel:+916265174401">6265174401</a></p>
@@ -350,10 +361,7 @@
           <p>Anuraj Shrivastava</p>
           <p><a href="tel:+918962970385">8962970385</a></p>
         </div>
-        <div class="chirayu">
-          <p>Chirayu Sood</p>
-          <p><a href="tel:+918251027550">8251027550</a></p>
-        </div>
+        
        
 
       </div>
@@ -394,7 +402,7 @@
 
   <script src="JS/app4.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
-  <script src="JS/main.js"></script>
+  <!-- <script src="JS/main.js"></script> -->
   <script>
     function displayMessage() {
       document.getElementById("message").classList.add("click-message");
