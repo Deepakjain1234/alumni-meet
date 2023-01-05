@@ -2,62 +2,80 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alumni Meet</title>
-  <link rel="stylesheet" href="CSS/styles.css">
-  <link rel="stylesheet" href="CSS/styles5.css">
-  <link rel="stylesheet" href="CSS/style.css">
-  <link rel="stylesheet" href="CSS/Styles1.css">
-  <link rel="icon" href="favicon.ico">
-  <script src="https://kit.fontawesome.com/a66516daf4.js" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
-    rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Alumni Meet</title>
+    <link rel="stylesheet"
+        href="CSS/styles.css">
+    <link rel="stylesheet"
+        href="CSS/styles5.css">
+    <link rel="stylesheet"
+        href="CSS/style.css">
+    <link rel="stylesheet"
+        href="CSS/Styles1.css">
+    <link rel="icon"
+        href="favicon.ico">
+    <script src="https://kit.fontawesome.com/a66516daf4.js"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600&display=swap"
+        rel="stylesheet">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 
 <body style="overflow-x:hidden;">
-  <script>
-    $(document).ready(function(){
-      // Add smooth scrolling to all links
-      $("a").on('click', function(event) {
-    
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-          // Prevent default anchor click behavior
-          event.preventDefault();
-    
-          // Store hash
-          var hash = this.hash;
-    
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 800, function(){
-       
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-          });
-        } // End if
-      });
-    });
-    
-    
-    
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+
+
+
     </script>
-  <!-- <script>
+    <!-- <script>
     document.addEventListener("DOMContentLoaded", function() {
 
       var hash = "#" + document.location.search.split("=")[1];
@@ -70,256 +88,334 @@
       }
     });
   </script> -->
-  <nav style="opacity: 1;">
-    <a href="https://www.ecellnitb.com"><img id="logo" src="Images/logo.png"></a>
+    <nav style="opacity: 1;">
+        <a href="https://www.ecellnitb.com"><img id="logo"
+                src="Images/logo.png"></a>
 
-    <ul class="nav nav-items" style="text-transform: uppercase;">
+        <ul class="nav nav-items"
+            style="text-transform: uppercase;">
 
-      <li class="nav-link"><a onclick="closeNav()" href="#section-1">home</a></li>
-      <li class="nav-link"><a onclick="closeNav()"  href="#section-x">About event</a></li>
-      <li class="nav-link"><a onclick="closeNav()"  href="#registration-form">register</a></li>
-      <li class="nav-link"><a onclick="closeNav()"  href="https://esummit.ecellnitb.com/">E-summit'23</a></li>
-      <li class="nav-link"><a onclick="closeNav()"  href="https://www.ecellnitb.com">E-Cell MANIT</a></li>
+            <li class="nav-link"><a onclick="closeNav()"
+                    href="#section-1">home</a></li>
+            <li class="nav-link"><a onclick="closeNav()"
+                    href="#section-x">About event</a></li>
+            <li class="nav-link"><a onclick="closeNav()"
+                    href="#registration-form">register</a></li>
+            <li class="nav-link"><a onclick="closeNav()"
+                    href="https://esummit.ecellnitb.com/">E-summit'23</a></li>
+            <li class="nav-link"><a onclick="closeNav()"
+                    href="https://www.ecellnitb.com">E-Cell MANIT</a></li>
 
-    </ul>
-    <div class="burger">
-      <div class="line1"></div>
-      <div class="line2"></div>
-      <div class="line3"></div>
-    </div>
-  </nav>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
 
 
-  <section id="section-1">
-    <h3 class="title-sm">Entrepreneurship Cell presents</h3>
-    <h1 class="big-title-1">MANIT Alumnis’</h1>
-    <h1 class="big-title-2">Meet 2023 </h1>
-    <div class="event-detail">
-      <h4 class="date"><i class="fa-solid icon-date fa-calendar-days"></i>11-12 Feb 2023</h4>
-      <h4 class="veneue"><i class="fa-solid icon-loc fa-location-dot"></i>MANIT Bhopal, India</h4>
-    </div>
-  <div id="section-x"></div>
-    <a href="#container">
-      <div class="contact-landing">
-        <p>Contact Us</p>
-      </div>
-    </a>
-  </section>
-  <section id="section-2" style="overflow: hidden;">
-    <div class="bg">
+    <section id="section-1">
+        <h3 class="title-sm">Entrepreneurship Cell presents</h3>
+        <h1 class="big-title-1">MANIT Alumnis’</h1>
+        <h1 class="big-title-2">Meet 2023 </h1>
+        <div class="event-detail">
+            <h4 class="date"><i class="fa-solid icon-date fa-calendar-days"></i>11-12 Feb 2023</h4>
+            <h4 class="veneue"><i class="fa-solid icon-loc fa-location-dot"></i>MANIT Bhopal, India</h4>
+        </div>
+        <div id="section-x"></div>
+        <a href="#container">
+            <div class="contact-landing">
+                <p>Contact Us</p>
+            </div>
+        </a>
+    </section>
+    <section id="section-2"
+        style="overflow: hidden;">
+        <div class="bg">
 
-      <div class="About">About The Event </div>
+            <div class="About">About The Event </div>
 
-      <p class="parag">Alumni Reunion is a jubilant event aimed at celebrating the imperial legacy of graduated scholars of Maulana
-        Azad National Institute of Technology. This annual conference will consist of diverse insightful activities and interactive
-        sessions from accomplished alums contributing conscientiously in the field of entrepreneurship and technological advancements.
-        As a part of our upcoming megafest,E-Summit'23, our team will be organising an Alumni Meet to reminisce the yester years and share
-        their insights from the corporate world.
-      </p>
-    </div>
+            <p class="parag">Alumni Reunion is a jubilant event aimed at celebrating the imperial legacy of graduated
+                scholars of Maulana
+                Azad National Institute of Technology. This annual conference will consist of diverse insightful
+                activities and interactive
+                sessions from accomplished alums contributing conscientiously in the field of entrepreneurship and
+                technological advancements.
+                As a part of our upcoming megafest,E-Summit'23, our team will be organising an Alumni Meet to reminisce
+                the yester years and share
+                their insights from the corporate world.
+            </p>
+        </div>
 
-    <div class="background">
-      <div class="heading">Opportunities</div>
-      <div class="row-1">
-        <div class="box1">
-          <div class="cover">
-            <img class="icon-img" src="gettogether white.png">
+        <div class="background">
+            <div class="heading">Opportunities</div>
+            <div class="row-1">
+                <div class="box1">
+                    <div class="cover">
+                        <img class="icon-img"
+                            src="gettogether white.png">
 
-          </div>
-          <p class="para">Alumni Get Together</p>
-          <div class="events-overlay">
-            <div class="cover1">
-              <img class="icon-img-1" src="get otgether gradeint.png">
+                    </div>
+                    <p class="para">Alumni Get Together</p>
+                    <div class="events-overlay">
+                        <div class="cover1">
+                            <img class="icon-img-1"
+                                src="get otgether gradeint.png">
+
+                        </div>
+                        <p class="para1">Alumni Get Together</p>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="cover">
+                        <img class="icon-img"
+                            src="cultural white.png">
+
+                    </div>
+                    <p class="para">Cultural Activities</p>
+                    <div class="events-overlay">
+                        <div class="cover1">
+                            <img class="icon-img-1"
+                                src="cultural gradient.png">
+
+                        </div>
+                        <p class="para1">Cultural Activities</p>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="cover">
+                        <img class="icon-img"
+                            src="fun icon white.png">
+
+                    </div>
+                    <p class="para">Games & Fun Activities </p>
+                    <div class="events-overlay">
+                        <div class="cover1">
+                            <img class="icon-img-1"
+                                src="fun icon gradient.png">
+
+
+                        </div>
+                        <p class="para1">Games & Fun Activities </p>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="cover">
+                        <img class="icon-img"
+                            src="investing white.png">
+
+                    </div>
+                    <p class="para">Investing In Opportunities & Startups</p>
+                    <div class="events-overlay">
+                        <div class="cover1">
+                            <img class="icon-img-1"
+                                src="investing gradeint.png">
+
+                        </div>
+                        <p class="para1">Investing In Opportunities & Startups</p>
+                    </div>
+                </div>
 
             </div>
-            <p class="para1">Alumni Get Together</p>
-          </div>
-        </div>
-        <div class="box1">
-          <div class="cover">
-            <img class="icon-img" src="cultural white.png">
+            <div class="row-2">
+                <div class="box1">
+                    <div class="cover">
+                        <img class="icon-img"
+                            src="buffet white.png">
 
-          </div>
-          <p class="para">Cultural Activities</p>
-          <div class="events-overlay">
-            <div class="cover1">
-              <img class="icon-img-1" src="cultural gradient.png">
+                    </div>
+                    <p class="para">Appetizing Buffet</p>
+                    <div class="events-overlay">
+                        <div class="cover1">
+                            <img class="icon-img-1"
+                                src="buffet gradient.png">
 
+                        </div>
+                        <p class="para1">Appetizing Buffet</p>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="cover">
+                        <img class="icon-img"
+                            src="group photographs white.png">
+
+                    </div>
+                    <p class="para">Group Photographs</p>
+                    <div class="events-overlay">
+                        <div class="cover1">
+                            <img class="icon-img-1"
+                                src="photographs gradient.png">
+
+                        </div>
+                        <p class="para1">Group Photographs</p>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="cover">
+                        <img class="icon-img"
+                            src="passes white.png">
+
+                    </div>
+                    <p class="para">Free Passes of E-Summit'23</p>
+                    <div class="events-overlay">
+                        <div class="cover1">
+                            <img class="icon-img-1"
+                                src="passes gradient.png">
+
+                        </div>
+                        <p class="para1">Free Passes of E-Summit'23</p>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="cover">
+                        <img class="icon-img"
+                            src="hiring white.png">
+
+                    </div>
+                    <p class="para">Hiring opportunities to Student Community</p>
+                    <div class="events-overlay">
+                        <div class="cover1">
+                            <img class="icon-img-1"
+                                src="hiring gradient.png">
+
+                        </div>
+                        <p class="para1">Hiring opportunities to Student Community</p>
+                    </div>
+                </div>
             </div>
-            <p class="para1">Cultural Activities</p>
-          </div>
         </div>
-        <div class="box1">
-          <div class="cover">
-            <img class="icon-img" src="fun icon white.png">
-
-          </div>
-          <p class="para">Games & Fun Activities </p>
-          <div class="events-overlay">
-            <div class="cover1">
-              <img class="icon-img-1" src="fun icon gradient.png">
 
 
+    </section>
+    <section id="registration-form">
+        <div class="wrapper">
+
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+        </div>
+        <div class="form">
+            <div class="head-form">
+                <div class="form-hr"></div>
+                <h3 class="registration-title">Register For Event</h3>
+                <div class="form-hr"></div>
             </div>
-            <p class="para1">Games & Fun Activities </p>
-          </div>
-        </div>
-        <div class="box1">
-          <div class="cover">
-            <img class="icon-img" src="investing white.png">
+            <form id="registrationform"
+                name="registration-form"
+                id="non-manit"
+                action="https://DistortedBusyLoops.deepakjain7.repl.co/api/payment_gateway/payumoney"
+                method="POST">
+                <div class="input-name">
+                    <input type="text"
+                        class="form-input-2"
+                        id="fname"
+                        name="firstname"
+                        placeholder="Full name*"
+                        required>
+                    <!-- <input type="text" class="form-input-1" id="lname" name="lastname" placeholder="Last name" required> -->
+                </div>
+                <div class="input-Branch">
+                    <input type="text"
+                        class="form-input-1"
+                        id="branch"
+                        name="lastname"
+                        placeholder="Branch*"
+                        required>
+                    <input type="number"
+                        class="form-input-1"
+                        id="year"
+                        name="zipcode"
+                        placeholder="Year of Passing*"
+                        required>
+                </div>
+                <div class="input-No">
+                    <input type="email"
+                        class="form-input-2"
+                        id="email"
+                        name="email"
+                        placeholder="E-mail*"
+                        required>
+                </div>
+                <div class="input-No">
+                    <input type="number"
+                        class="form-input-2"
+                        id="contact"
+                        name="phone"
+                        placeholder="Contact No.(Without country code)*"
+                        required>
 
-          </div>
-          <p class="para">Investing In Opportunities & Startups</p>
-          <div class="events-overlay">
-            <div class="cover1">
-              <img class="icon-img-1" src="investing gradeint.png">
+                </div>
+                <div class="input-No">
 
-            </div>
-            <p class="para1">Investing In Opportunities & Startups</p>
-          </div>
-        </div>
+                    <div class="form-input-1">
 
-      </div>
-      <div class="row-2">
-        <div class="box1">
-          <div class="cover">
-            <img class="icon-img" src="buffet white.png">
+                        <select name="country">
+                            <option value="Gender"
+                                class="gender-placeholder"
+                                selected
+                                disabled
+                                hidden>Gender*</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
 
-          </div>
-          <p class="para">Appetizing Buffet</p>
-          <div class="events-overlay">
-            <div class="cover1">
-              <img class="icon-img-1" src="buffet gradient.png">
+                        </select>
+                    </div>
+                    <div class="form-input-1">
 
-            </div>
-            <p class="para1">Appetizing Buffet</p>
-          </div>
-        </div>
-        <div class="box1">
-          <div class="cover">
-            <img class="icon-img" src="group photographs white.png">
-
-          </div>
-          <p class="para">Group Photographs</p>
-          <div class="events-overlay">
-            <div class="cover1">
-              <img class="icon-img-1" src="photographs gradient.png">
-
-            </div>
-            <p class="para1">Group Photographs</p>
-          </div>
-        </div>
-        <div class="box1">
-          <div class="cover">
-            <img class="icon-img" src="passes white.png">
-
-          </div>
-          <p class="para">Free Passes of E-Summit'23</p>
-          <div class="events-overlay">
-            <div class="cover1">
-              <img class="icon-img-1" src="passes gradient.png">
-
-            </div>
-            <p class="para1">Free Passes of E-Summit'23</p>
-          </div>
-        </div>
-        <div class="box1">
-          <div class="cover">
-            <img class="icon-img" src="hiring white.png">
-
-          </div>
-          <p class="para">Hiring opportunities to Student Community</p>
-          <div class="events-overlay">
-            <div class="cover1">
-              <img class="icon-img-1" src="hiring gradient.png">
-
-            </div>
-            <p class="para1">Hiring opportunities to Student Community</p>
-          </div>
-        </div>
-      </div>
-    </div>
+                        <select name="amount"
+                            required>
+                            <option class="gender-placeholder"
+                                selected
+                                disabled
+                                hidden>Accomodation Needed</option>
+                            <option value="6000">Yes(₹6,000)</option>
+                            <option value="3500">No(₹3,500)</option>
 
 
-  </section>
-  <section id="registration-form">
-    <div class="wrapper">
-
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-    </div>
-    <div class="form">
-      <div class="head-form">
-        <div class="form-hr"></div>
-        <h3 class="registration-title">Register For Event</h3>
-        <div class="form-hr"></div>
-      </div>
-      <form id="registrationform" name="registration-form"
-      id="non-manit"
-                    action="https://DistortedBusyLoops.deepakjain7.repl.co/api/payment_gateway/payumoney"
-                    method="POST">
-        <div class="input-name">
-          <input type="text" class="form-input-2" id="fname" name="firstname" placeholder="Full name*" required>
-          <!-- <input type="text" class="form-input-1" id="lname" name="lastname" placeholder="Last name" required> -->
-        </div>
-        <div class="input-Branch">
-          <input type="text" class="form-input-1" id="branch" name="lastname" placeholder="Branch*" required>
-          <input type="number" class="form-input-1" id="year" name="zipcode" placeholder="Year of Passing*" required>
-        </div>
-        <div class="input-No">
-          <input type="email" class="form-input-2" id="email" name="email" placeholder="E-mail*" required>
-        </div>
-        <div class="input-No">
-          <input type="number" class="form-input-2" id="contact" name="phone" placeholder="Contact No.(Without country code)*" required>
-
-        </div>
-        <div class="input-No">
-
-          <div class="form-input-1">
-
-          <select name = "country"  >
-            <option value = "Gender" class="gender-placeholder"  selected disabled hidden>Gender*</option>
-            <option value = "Male">Male</option>
-            <option value = "Female">Female</option>
-            <option value = "Other" >Other</option>
-            
-          </select>
-          </div>
-          <div class="form-input-1">
-
-            <select name = "amount" required >
-              <option class="gender-placeholder"  selected disabled hidden>Choose package</option>
-              <option value = "6000">Hospitality and Accomodation ₹6,000</option>
-              <option value = "3500">Only Hospitality without Accomodation ₹3,500</option>
-              
-              
-            </select>
-            </div>
-            <!-- <input type="text" class="form-input-1" name="city"  placeholder="Any Queries"> -->
-        </div>
-        <div class="rest-input">
-          <input type="text" class="form-input-2" id="occupation" name="city" placeholder="Occupation*" required>
-          <input type="text" class="form-input-2" id="address2" name="address2" placeholder="College Achievement" >
-           <input type="text" class="form-input-2" id="brief" name="address1" placeholder="Brief Profile and Special Achievements" required>
-          <!-- <input type="text" class="form-input-2" id="special" name="udf3" placeholder="Special Achievements" required>  -->
-          <!-- <input type="hidden" name="amount" value="6000"> -->
-          <input type="hidden" name="state" value="alumni">
-          <!-- <textarea class="form-input-2 textarea-form-input-2" id="messege" placeholder="Message for your batchmates" required></textarea> -->
-      </form>
-      <!-- <div id="message">
+                        </select>
+                    </div>
+                    <!-- <input type="text" class="form-input-1" name="city"  placeholder="Any Queries"> -->
+                </div>
+                <div class="rest-input">
+                    <input type="text"
+                        class="form-input-2"
+                        id="occupation"
+                        name="city"
+                        placeholder="Occupation*"
+                        required>
+                    <input type="text"
+                        class="form-input-2"
+                        id="address2"
+                        name="address2"
+                        placeholder="College Achievement">
+                    <input type="text"
+                        class="form-input-2"
+                        id="brief"
+                        name="address1"
+                        placeholder="Brief Profile and Special Achievements"
+                        required>
+                    <!-- <input type="text" class="form-input-2" id="special" name="udf3" placeholder="Special Achievements" required>  -->
+                    <!-- <input type="hidden" name="amount" value="6000"> -->
+                    <input type="hidden"
+                        name="state"
+                        value="alumni">
+                    <!-- <textarea class="form-input-2 textarea-form-input-2" id="messege" placeholder="Message for your batchmates" required></textarea> -->
+            </form>
+            <!-- <div id="message">
         <h4 class="successful-msg"> Successfully Registered!</h4>
         <i class="fa-solid fa-xmark" onclick="hideMessage()"></i>
         <h4 class="follow-msg">Follow Us! Stay Updated with E-Summit'23</h4>
@@ -332,77 +428,90 @@
         </div>
 
       </div> -->
-      <input id="btn-sub" type="submit" class="form-submit" ><i class="fa-solid btn-arr fa-arrow-right animate__animated animate__headShake animate__infinite	infinite animate__slow"></i>
-    </div>
-
-
-    </div>
-
-  </section>
-  <section id="footer">
-    <div class="subscription">
-      <div class="paragraph">Don't miss our updates</div>
-      <div class="Subscribe">
-        <p class="subscribe-text">Subscribe Now</p>
-        <form action="">
-          <div class="box">
-
-            <input type="text" class="mail" placeholder="Enter your mail..." required>
-            <button class="sec-box">Subscribe</button>
-
-          </div>
-        </form>
-      </div>
-    </div>
-    </div>
-    <div class="footer-hr"></div>
-    <div id="container">
-      <div class="footerdetail">
-        <div class="chirayu">
-          <p>Chirayu Sood</p>
-          <p><a href="tel:+918251027550">8251027550</a></p>
+            <input id="btn-sub"
+                type="submit"
+                class="form-submit"><i
+                class="fa-solid btn-arr fa-arrow-right animate__animated animate__headShake animate__infinite	infinite animate__slow"></i>
         </div>
-        <div class="arnav">
-          <p>Arnav Bangaria</p>
-          <p><a href="tel:+916265174401">6265174401</a></p>
-        </div>
-        <div class="ppati">
-          <p>Pratham Patidar</p>
-          <p><a href="tel:+919294836692">9294836692</a></p>
-        </div>
-        <div class="anuraj">
-          <p>Anuraj Shrivastava</p>
-          <p><a href="tel:+918962970385">8962970385</a></p>
-        </div>
-        
-       
 
-      </div>
-
-
-      <div class="social">
-
-
-        <p class="adress-content"> <i class="fa-solid fa-location-dot"></i> Maulana Azad National Institute of Technology</p>
-
-
-
-
-        <p class="footer-mail"><a href="mailto:alum@ecellnitb.com"><i class="fa-solid fa-envelope"></i> alum@ecellnitb.com</a></p>
-
-        <div class="icon">
-          <div class="icon1"><a href="https://www.instagram.com/ecell_nitb/"><i class="fa-brands fa-instagram">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></a></div>
-          <div class="icon1"><a href="https://www.youtube.com/@EntrepreneurshipCellNITBhopal"><i class="fa-brands fa-youtube">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></a></div>
-          <div class="icon1"><a href="https://www.linkedin.com/company/ecell-manit"> <i class="fa-brands fa-linkedin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></a></div>
-          <div class="icon1"><a href="https://www.facebook.com/ecellnitbhopal/"><i class="fa-brands fa-square-facebook">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></a></div>
 
         </div>
-        <div class="copyright">
-          <p> Copyright © 2023 • E-Cell MANIT Bhopal</p>
+
+    </section>
+    <section id="footer">
+        <div class="subscription">
+            <div class="paragraph">Don't miss our updates</div>
+            <div class="Subscribe">
+                <p class="subscribe-text">Subscribe Now</p>
+                <form action="">
+                    <div class="box">
+
+                        <input type="text"
+                            class="mail"
+                            placeholder="Enter your mail..."
+                            required>
+                        <button class="sec-box">Subscribe</button>
+
+                    </div>
+                </form>
+            </div>
         </div>
-      </div>
+        </div>
+        <div class="footer-hr"></div>
+        <div id="container">
+            <div class="footerdetail">
+                <div class="chirayu">
+                    <p>Chirayu Sood</p>
+                    <p><a href="tel:+918251027550">8251027550</a></p>
+                </div>
+                <div class="arnav">
+                    <p>Arnav Bangaria</p>
+                    <p><a href="tel:+916265174401">6265174401</a></p>
+                </div>
+                <div class="ppati">
+                    <p>Pratham Patidar</p>
+                    <p><a href="tel:+919294836692">9294836692</a></p>
+                </div>
+                <div class="anuraj">
+                    <p>Anuraj Shrivastava</p>
+                    <p><a href="tel:+918962970385">8962970385</a></p>
+                </div>
 
-    </div>
+
+
+            </div>
+
+
+            <div class="social">
+
+
+                <p class="adress-content"> <i class="fa-solid fa-location-dot"></i> Maulana Azad National Institute of
+                    Technology</p>
+
+
+
+
+                <p class="footer-mail"><a href="mailto:alum@ecellnitb.com"><i class="fa-solid fa-envelope"></i>
+                        alum@ecellnitb.com</a></p>
+
+                <div class="icon">
+                    <div class="icon1"><a href="https://www.instagram.com/ecell_nitb/"><i
+                                class="fa-brands fa-instagram">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></a></div>
+                    <div class="icon1"><a href="https://www.youtube.com/@EntrepreneurshipCellNITBhopal"><i
+                                class="fa-brands fa-youtube">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></a></div>
+                    <div class="icon1"><a href="https://www.linkedin.com/company/ecell-manit"> <i
+                                class="fa-brands fa-linkedin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></a></div>
+                    <div class="icon1"><a href="https://www.facebook.com/ecellnitbhopal/"><i
+                                class="fa-brands fa-square-facebook">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></a>
+                    </div>
+
+                </div>
+                <div class="copyright">
+                    <p> Copyright © 2023 • E-Cell MANIT Bhopal</p>
+                </div>
+            </div>
+
+        </div>
 
 
 
@@ -410,23 +519,23 @@
 
 
 
-    </div>
-  </section>
+        </div>
+    </section>
 
-  <script src="JS/app4.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
-  <!-- <script src="JS/main.js"></script> -->
-  <script>
-    function displayMessage() {
-      document.getElementById("message").classList.add("click-message");
-      document.getElementById("submit-btn").classList.toggle("form-submit-click");
-    }
+    <script src="JS/app4.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+    <!-- <script src="JS/main.js"></script> -->
+    <script>
+        function displayMessage() {
+            document.getElementById("message").classList.add("click-message");
+            document.getElementById("submit-btn").classList.toggle("form-submit-click");
+        }
 
-    function hideMessage() {
-      document.getElementById("message").classList.remove("click-message");
-    }
+        function hideMessage() {
+            document.getElementById("message").classList.remove("click-message");
+        }
 
-  </script>
+    </script>
 </body>
 
 </html>
