@@ -23,7 +23,7 @@ nav {
   transition: 0.4s;
 }
 
-#logo {
+.logo {
   transition: 0.4s;
 }
 
@@ -45,7 +45,7 @@ nav {
   width: 100vw;
 }
 
-#logo {
+.logo {
   height: 94px;
   width: 94px;
   margin: 19px 0px 19px 50px;
@@ -100,6 +100,12 @@ li a :hover{
   }
 }
 
+@media screen and (max-width:430px) {
+    .power-by-rolta{
+        font-size: 0.65rem!important;
+    }
+}
+
 @media screen and (max-width:1110px) {
   nav {
     overflow-x: hidden;
@@ -108,13 +114,17 @@ li a :hover{
     height: 72px;
   }
 
-  #logo {
+  .logo {
     opacity: 1;
     height: 41px;
     width: 41px;
-    margin-left: 0;
     position: fixed;
+    margin-left: 0;
     left: 23px;
+}
+.logo-res{
+      position: fixed;
+    margin-left: 50px!important;
   }
 
   .nav-items {
@@ -177,4 +187,60 @@ li a :hover{
 
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.event-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit  , minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 29px 10px;
+    padding-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    align-items: stretch;
+}
+
+.single-event{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #000;
+}
+/* .single-event:hover .btn-more-info{
+    background-color: #000;
+    color: #fff;
+} */
+.btn-more-info{
+    margin: 30px 0;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: white;
+    background-color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+.btn-more-info:hover{
+    background-color: #fff;
+    color: #000;
+}
+.single-event:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+.single-event img{
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
 }
