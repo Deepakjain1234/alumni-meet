@@ -399,16 +399,14 @@
             <div class="box-form">
                 <p class="registration-title-2">Transaction Details</p>
     
-                <p class="box-p" >Name of Bank:  State Bank of India </p>
+                <p class="box-p" >Name:  Director MANIT-Bhopal </p>
                 <p class="box-p"  >Account Number:  10020150107</p>
                 <p class="box-p" >IFSC Code:  SBIN0001608</p>
            
             </div>
             <form id="registrationform"
                 name="registration-form"
-                id="non-manit"
-                action="https://DistortedBusyLoops.deepakjain7.repl.co/api/payment_gateway/payumoney"
-                method="POST">
+                >
                 <div class="input-name">
                     <input type="text"
                         class="form-input-2"
@@ -450,7 +448,7 @@
                 </div>
                 <div class="input-No">
                     <div class="form-input-1">
-                        <select name="country">
+                        <select name="country" id="gender">
                             <option value="Gender"
                                 class="gender-placeholder"
                                 selected
@@ -478,7 +476,7 @@
                 </div>
                 <div class="input-No">
                 <div class="form-input-1">
-                    <select name="country">
+                    <select name="country" id="size">
                         <option value="T-shirt-size"
                             class="gender-placeholder"
                             selected
@@ -493,7 +491,7 @@
                 </div>
                 <input type="text"
                         class="form-input-1"
-                        id="year"
+                        id="Transaction"
                         name="zipcode"
                         placeholder="Transaction Id*"
                         required>
@@ -508,7 +506,7 @@
                         required>
                     <input type="text"
                         class="form-input-2"
-                        id="address2"
+                        id="college-ach"
                         name="address2"
                         placeholder="College Achievement">
                     <input type="text"
@@ -633,7 +631,7 @@
 
     <script src="JS/app4.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
-    <!-- <script src="JS/main.js"></script> -->
+    <script src="JS/main.js"></script>
     <script>
         function displayMessage() {
             document.getElementById("message").classList.add("click-message");

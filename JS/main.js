@@ -11,7 +11,7 @@ var config = {
 firebase.initializeApp(config);
 
 //Reference for form collection(3)
-let formMessage = firebase.database().ref('alumni');
+let formMessage = firebase.database().ref('alumni-new');
 
 //listen for submit event//(1)
 document
@@ -26,15 +26,19 @@ function formSubmit(e) {
     let data =
     {
         first_name: document.querySelector('#fname').value,
-        last_name: document.querySelector('#lname').value,
+        // last_name: document.querySelector('#lname').value,
         branch: document.querySelector('#branch').value,
         year: document.querySelector('#year').value,
         email: document.querySelector('#email').value,
         contact: document.querySelector('#contact').value,
         occupation: document.querySelector('#occupation').value,
         brief_profile: document.querySelector('#brief').value,
-        special: document.querySelector('#special').value,
-        messege: document.querySelector('#messege').value
+        // special: document.querySelector('#special').value,
+        // messege: document.querySelector('#messege').value,
+        size: document.querySelector('#size').value,
+        Transaction: document.querySelector('#Transaction').value,
+        college_achivement: document.querySelector('#college-ach').value,
+        
     }
 
 
