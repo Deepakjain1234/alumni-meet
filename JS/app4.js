@@ -6,20 +6,25 @@ function scrollFunction() {
 
   if(window.innerWidth>1110){
     let nav = document.getElementsByTagName("nav")[0].style;
-    let logo = document.getElementById("logo").style;
+    let logo1 = document.getElementById("logo-1").style;
+    let logo2 = document.getElementById("logo-2").style;
     let navItem = document.getElementsByClassName("nav-items")[0].style;
   
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
       nav.height = "94px";
-      logo.height = "60px";
-      logo.width = "60px";
+      logo1.height = "60px";
+      logo1.width = "60px";
+      logo2.height = "60px";
+      logo2.width = "60px";
       navItem.marginTop = "22px";
      
       
     } else {
       nav.height = "132px";
-      logo.height = "94px";
-      logo.width = "94px";
+      logo1.height = "94px";
+      logo1.width = "94px";
+      logo2.height = "94px";
+      logo2.width = "94px";
       navItem.marginTop = "45px";
       
       
