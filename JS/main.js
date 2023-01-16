@@ -72,7 +72,7 @@ function sendMessage(data) {
     newFormMessage.set(data);
     // alert("your application submited");
 
-    swal({title: "Good job", text: "Registered successfully!", type: 
+    swal({title: "congratulations", text: "Registered successfully!", type: 
 "success"}).then(function(){ 
    location.reload();
    }
