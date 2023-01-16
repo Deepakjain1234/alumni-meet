@@ -33,7 +33,7 @@ function formSubmit(e) {
         contact: document.querySelector('#contact').value,
         occupation: document.querySelector('#occupation').value,
         brief_profile: document.querySelector('#brief').value,
-        // special: document.querySelector('#special').value,
+        accommodation: document.querySelector('#accommodation').value,
         // messege: document.querySelector('#messege').value,
         size: document.querySelector('#size').value,
         Transaction: document.querySelector('#Transaction').value,
